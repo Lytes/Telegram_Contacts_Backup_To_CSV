@@ -3,7 +3,9 @@ Python script to convert Telegram's contacts.html backup file to a CSV format wi
 
 Move the contacts.html file into the same folder as main.py. If you want prefer, you can edit the path in the script.
 
-Run with python3 main.py 
+```
+$ python main.py
+```
 
 It will automatically create a file named ConvertedToCSV.csv
 
