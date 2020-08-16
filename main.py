@@ -9,8 +9,7 @@ with open(pathToFile, encoding='utf-8') as f:
 
 		for i,l in enumerate(lines):
 
-			if '<div class="name bold">' in l and '<div class="details_entry details">' in lines[i+4]:
-				#print("hi")############
+			if '<div class="name bold">' in l and '<div class="details_entry details">' in lines[i+4]:	
 				tel = lines[i+5].replace(' ','')
 
 				if tel.startswith('00234'):
