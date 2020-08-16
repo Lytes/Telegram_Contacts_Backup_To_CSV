@@ -9,3 +9,5 @@ $ python main.py
 
 It will automatically create a file named ConvertedToCSV.csv
 
+# Note
+You might have to change the country code in the script as its written for Nigerian +234
