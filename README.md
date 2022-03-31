@@ -9,5 +9,7 @@ $ python main.py
 
 It will automatically create a file named ConvertedToCSV.csv
 
+csv_to_vcf.py converts csv to vcf
+
 # Note
 You might have to change the country code in the script as its written for Nigerian +234
